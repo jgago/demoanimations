@@ -19,8 +19,7 @@ $(function() {
 	    	person.dance();
 	    } else if (ors[0] === "luces") {
 	    	mundo.luz = true;
-	    }	
-		else if (ors[0] === "musica") {
+	    } else if (ors[0] === "musica") {
 	    	for(var i in mundo.inhabitants) {
 				mundo.inhabitants[i].dance();
 				mundo.effects["luz"] = new Effects.Lights(ors[1]);
